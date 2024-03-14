@@ -29,7 +29,7 @@ export const aboutMe = [
     id: "4",
     generalStatement: "Relevant Coursework",
     specified:
-      " Databases II, AI I, Intro to Machine Learning, Analysis of Algorithms I, Computer Networks I, Computer Graphics I, Computer Organization, Unstructured Data",
+      "Databases II, Artificial Intelligence I, Intro to Machine Learning, Analysis of Algorithms I, Computer Networks I, Computer Graphics I, Computer Organization, Unstructured Data",
   },
 ];
 

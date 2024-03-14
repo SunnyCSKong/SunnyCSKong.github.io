@@ -1,0 +1,52 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  background-color: #001220;
+  color: white;
+}
+
+.f-container {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  justify-content: center;
+}
+.f-title {
+  text-align: center;
+}
+.l-style {
+  padding: 10px;
+}
+.i-style {
+  padding: 10px;
+}
+
+.m-style {
+  height: 10vh;
+  padding: 10px;
+}
+
+.s-style {
+  margin-top: 15px;
+}
+.b-segment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  margin: 68px;
+}
+.git {
+  width: 100px;
+  margin: 25px;
+}
+.linkedIn {
+  width: 100px;
+  margin: 25px;
+}

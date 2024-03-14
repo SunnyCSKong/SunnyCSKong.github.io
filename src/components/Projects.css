@@ -1,0 +1,39 @@
+.p-title {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 3.5em;
+}
+.p-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 60px;
+}
+
+.p-statements {
+  overflow-wrap: break-word;
+  padding: 10px;
+  width: 30em;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  overflow-wrap: break-word;
+}
+.s-img {
+  height: auto;
+  overflow: hidden;
+  object-fit: contain;
+  max-height: 250px;
+}
+.line {
+  max-width: 55%;
+  justify-content: center;
+}
+
+.p-links {
+  text-decoration: none;
+}

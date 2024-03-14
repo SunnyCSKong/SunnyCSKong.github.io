@@ -1,0 +1,80 @@
+.drawer-button {
+  background-color: transparent;
+  border-color: transparent;
+  color: azure;
+  font-size: 3em;
+  position: fixed;
+  top: 50%;
+  right: 4%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.drawer-button.hidden {
+  display: none;
+}
+.drawer {
+  background-color: bisque;
+  opacity: 80%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+ul li {
+  list-style: none;
+  text-align: center;
+}
+ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 3em;
+  padding: 5px 20px;
+  display: inline-flex;
+  font-weight: 700;
+  transition: 0.5s;
+}
+ul:hover li a {
+  color: #0002;
+}
+ul li:hover a {
+  color: #000;
+  background: transparent;
+}
+ul li a:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 1);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 500px;
+
+  transition: letter-spacing 0.5s, left 0.5s;
+}
+ul li a:hover:before {
+  content: attr(data-text);
+  opacity: 1;
+  left: 50%;
+  letter-spacing: 10px;
+  width: 1800px;
+  height: 1800px;
+}
+ul li a:hover {
+  color: rgba(0, 0, 0, 0.1);
+}

@@ -17,7 +17,7 @@
   background-color: bisque;
   opacity: 80%;
 }
-ul {
+.nav-ul {
   margin: 0;
   padding: 0;
   position: relative;
@@ -27,11 +27,11 @@ ul {
   justify-content: space-evenly;
   height: 100vh;
 }
-ul li {
+.nav-ul .nav-li {
   list-style: none;
   text-align: center;
 }
-ul li a {
+.nav-ul .nav-li a {
   color: #333;
   text-decoration: none;
   font-size: 3em;
@@ -40,14 +40,14 @@ ul li a {
   font-weight: 700;
   transition: 0.5s;
 }
-ul:hover li a {
+.nav-ul:hover .nav-li a {
   color: #0002;
 }
-ul li:hover a {
+.nav-ul .nav-li:hover a {
   color: #000;
   background: transparent;
 }
-ul li a:before {
+.nav-ul .nav-li a:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -67,7 +67,7 @@ ul li a:before {
 
   transition: letter-spacing 0.5s, left 0.5s;
 }
-ul li a:hover:before {
+.nav-ul .nav-li a:hover:before {
   content: attr(data-text);
   opacity: 1;
   left: 50%;
@@ -75,6 +75,6 @@ ul li a:hover:before {
   width: 1800px;
   height: 1800px;
 }
-ul li a:hover {
+.nav-ul .nav-li a:hover {
   color: rgba(0, 0, 0, 0.1);
 }

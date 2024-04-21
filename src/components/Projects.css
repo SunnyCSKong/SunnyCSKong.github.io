@@ -61,49 +61,29 @@
   justify-content: space-around;
   width: 100%;
 }
-.langs {
-  width: 25vw;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-  height: 45vh;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.lang {
-  padding: 7px;
-}
-.tool {
-  padding: 7px;
-}
-.frames {
-  padding: 7px;
-}
-.tools {
-  width: 25vw;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-  height: 45vh;
-}
-
+.langs,
+.tools,
 .frameworks {
   width: 25vw;
   margin: 0 auto;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 10px;
   text-align: center;
-  height: 45vh;
+}
+
+.lang-list,
+.tool-list,
+.frameworks-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lang,
+.tool,
+.frames {
+  padding: 7px;
+  margin: 5px 0; /* Adjust the margin between list items */
 }
 
 .skill-title {

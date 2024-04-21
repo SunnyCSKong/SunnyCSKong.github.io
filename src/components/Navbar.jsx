@@ -29,8 +29,8 @@ function Navbar() {
         className="drawer"
         size={400}
       >
-        <ul className="">
-          <li className="">
+        <ul className="nav-ul">
+          <li className="nav-li">
             <a
               href="#"
               onClick={() => scrollToSection("home")}
@@ -39,7 +39,7 @@ function Navbar() {
               Home
             </a>
           </li>
-          <li className="">
+          <li className="nav-li">
             <a
               href="#about"
               onClick={() => scrollToSection("about")}
@@ -48,7 +48,7 @@ function Navbar() {
               About Me
             </a>
           </li>
-          <li className="">
+          <li className="nav-li">
             <a
               href="#project"
               onClick={() => scrollToSection("project")}
@@ -57,7 +57,7 @@ function Navbar() {
               Projects
             </a>
           </li>
-          <li className="">
+          <li className="nav-li">
             <a
               href="#contact"
               onClick={() => scrollToSection("contact")}

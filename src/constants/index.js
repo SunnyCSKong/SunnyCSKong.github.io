@@ -36,23 +36,23 @@ export const aboutMe = [
 export const proj = [
   {
     id: "1",
-    projName: "Learn To Read Sheet Music",
+    projName: "Sheet Music Tutor",
     projDescrip:
       "Have you ever wanted to learn how to sight read? Using a simple iOS application utilising Swift and SwiftUI, learn how to recognise notes and key signatures.",
-    link: "https://github.com/SunnyCSKong/sight_reading",
+    link: "https://github.com/SunnyCSKong/Sheet-Music-Tutor",
   },
   {
     id: "2",
-    projName: "Multi-Leg Trading Strategies",
+    projName: "Stock Predictor with Predicted Profit/Loss",
     projDescrip:
-      "Predict stock price with AI (LSTM model), simulate potential profit based on predicted price when executing a collar, strangle or straddle strategy. This project employs Flask and React. Currently only runs locally. See README.md for instructions on how to use",
-    link: "https://github.com/SunnyCSKong/stock_predict",
+      "Predict stock price with AI (LSTM model), simulate potential profit based on predicted price when executing a collar, strangle or straddle strategy. This project employs Flask and React. See README.md for instructions and demo images.",
+    link: "https://github.com/SunnyCSKong/Stock-Predictor-with-P-L",
   },
   {
     id: "3",
     projName: "Chat-bot",
     projDescrip:
-      "A capstone project for Western University a collaborative effort between the department of education and a group of 4 students.",
+      "An auto response query system built for the faculty of Education at Western University. I created the front-end components.",
   },
 ];
 

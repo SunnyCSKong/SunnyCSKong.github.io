@@ -1,3 +1,13 @@
+.p-container {
+  position: relative;
+  margin: 0;
+  padding: 0%;
+  height: 170vh;
+  width: 100%;
+  background-color: #001220;
+  color: white;
+  overflow: hidden;
+}
 .p-title {
   text-align: center;
   margin-top: 2em;
@@ -36,4 +46,67 @@
 
 .p-links {
   text-decoration: none;
+}
+
+.additional-container {
+  margin-top: 3rem;
+}
+.add {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.skill-type-c {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.langs {
+  width: 25vw;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  height: 45vh;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lang {
+  padding: 7px;
+}
+.tool {
+  padding: 7px;
+}
+.frames {
+  padding: 7px;
+}
+.tools {
+  width: 25vw;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  height: 45vh;
+}
+
+.frameworks {
+  width: 25vw;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  height: 45vh;
+}
+
+.skill-title {
+  font-weight: bold;
+  font-size: 1.5em;
 }

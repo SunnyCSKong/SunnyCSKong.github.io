@@ -74,3 +74,113 @@ export const skills = [
     logo: bash,
   },
 ];
+
+export const languages = [
+  {
+    id: "1",
+    text: "CSS",
+  },
+  {
+    id: "2",
+    text: "JavaScript",
+  },
+  {
+    id: "4",
+    text: "HTML",
+  },
+  {
+    id: "5",
+    text: "PHP",
+  },
+  {
+    id: "6",
+    text: "SQL",
+  },
+  {
+    id: "7",
+    text: "Swift",
+  },
+  {
+    id: "8",
+    text: "TypeScript",
+  },
+  {
+    id: "9",
+    text: "VBA",
+  },
+];
+
+export const tools = [
+  {
+    id: "1",
+    text: "Apache Superset",
+  },
+  {
+    id: "2",
+    text: "Docker",
+  },
+  {
+    id: "3",
+    text: "ElasticSearch",
+  },
+  {
+    id: "4",
+    text: "Git",
+  },
+  {
+    id: "5",
+    text: "Jira",
+  },
+
+  {
+    id: "7",
+    text: "Maven",
+  },
+  {
+    id: "8",
+    text: "MongoDB",
+  },
+  {
+    id: "9",
+    text: "Node.js",
+  },
+  {
+    id: "10",
+    text: "NPM",
+  },
+  {
+    id: "11",
+    text: "QT Creator",
+  },
+  {
+    id: "12",
+    text: "ZSH",
+  },
+];
+
+export const frameworks = [
+  {
+    id: "1",
+    text: "Angular",
+  },
+  {
+    id: "2",
+    text: "Flask",
+  },
+  {
+    id: "3",
+    text: "JUnit",
+  },
+  {
+    id: "4",
+    text: "React",
+  },
+  {
+    id: "5",
+    text: "React Native",
+  },
+  {
+    id: "6",
+    text: "SwiftUI",
+  },
+];

@@ -7,5 +7,5 @@ import book from "./bottom_book.svg";
 import simage from "./portrait.jpg";
 import git from "./github.png";
 import lin from "./linkedIn.png";
-
-export { bash, cpp, java, python, sun, book, simage, git, lin };
+import sunny from "./sunny.jpg";
+export { bash, cpp, java, python, sun, book, simage, git, lin, sunny };

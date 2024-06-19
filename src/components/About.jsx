@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./About.css";
 import { aboutMe } from "../constants";
-import { simage } from "../assets";
+import { simage, sunny } from "../assets";
 import { Parallax } from "react-scroll-parallax";
 const AboutCard = ({
   generalStatement,
@@ -38,9 +38,6 @@ function About() {
     };
   }, []);
 
-  // Set your minimum height (adjust the value as needed)
-  const minHeight = 200;
-
   return (
     <div id="about">
       <div class="container">
@@ -73,7 +70,7 @@ function About() {
 
             <section className="a-section">
               <div className="pic">
-                <img src={simage} alt="" className="self-image" />
+                <img src={sunny} alt="" className="self-image" />
               </div>
               <div className="a-info">
                 {aboutMe.map((about, index) => (

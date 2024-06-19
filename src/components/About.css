@@ -2,7 +2,7 @@
   position: relative;
   margin: 0;
   padding: 0%;
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   background-color: #001220;
   color: white;
@@ -13,9 +13,29 @@ h1 {
   margin: 0%;
 }
 
+.pic {
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  flex-grow: 0;
+}
+.self-image {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .a-container {
   position: relative;
   top: 25%;
+}
+.a-section {
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .a-title {
   position: relative;
@@ -24,15 +44,10 @@ h1 {
   font-size: 3.5em;
 }
 
-.a-section {
-  padding: 2em;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 .a-info {
-  margin-left: 6em;
-  max-width: 50%;
+  flex-basis: 50%;
+  flex-grow: 0;
+  margin-right: 7rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

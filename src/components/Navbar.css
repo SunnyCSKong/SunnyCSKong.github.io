@@ -13,11 +13,14 @@
 .drawer-button.hidden {
   display: none;
 }
+/* #001220 */
 .drawer {
   background-color: bisque;
   opacity: 80%;
 }
 .nav-ul {
+  background-color: #001220;
+
   margin: 0;
   padding: 0;
   position: relative;
@@ -26,13 +29,14 @@
   flex-direction: column;
   justify-content: space-evenly;
   height: 100vh;
+  z-index: 1;
 }
 .nav-ul .nav-li {
   list-style: none;
   text-align: center;
 }
 .nav-ul .nav-li a {
-  color: #333;
+  color: #ffffff;
   text-decoration: none;
   font-size: 3em;
   padding: 5px 20px;
@@ -44,7 +48,7 @@
   color: #0002;
 }
 .nav-ul .nav-li:hover a {
-  color: #000;
+  color: #313131;
   background: transparent;
 }
 .nav-ul .nav-li a:before {
@@ -57,7 +61,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1em;
-  color: rgba(0, 0, 0, 1);
+  color: rgb(255, 255, 255);
   border-radius: 50%;
   z-index: -1;
   opacity: 0;

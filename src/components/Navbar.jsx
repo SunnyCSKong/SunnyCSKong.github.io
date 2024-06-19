@@ -11,7 +11,7 @@ function Navbar() {
     document.getElementById(sectionId).scrollIntoView({
       behavior: "smooth",
     });
-    toggleDrawer(); // Close the drawer after clicking a link
+    toggleDrawer();
   };
 
   return (

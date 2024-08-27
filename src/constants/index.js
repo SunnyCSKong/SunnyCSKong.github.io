@@ -1,116 +1,88 @@
-import { bash, cpp, java, python } from "../assets";
-export const aboutMe = [
+export const certifications = [
   {
     id: "1",
-    generalStatement: "Passion for Learning",
-    specified:
-      "I will have a degree in Computer Science (Specialization), and a minor in Software Engineering. Some certifications I hold:",
     link: "https://portal.bloombergforeducation.com/certificates/dH7fvfgXJbCCw6Xv2qL6JEsJ",
     name: "Bloomberg Marketing Concepts (BMC), ",
-    name2: "IBM Z-Xplore Concepts/",
-    link2: "https://www.credly.com/badges/b1f6674b-2cdd-4e48-9699-81601e446afd",
-    name3: "Advanced",
-    link3:
-      "https://www.credly.com/badges/4a6ecc36-78c7-4927-a16f-63785431f0bf/public_url",
   },
   {
     id: "2",
-    generalStatement: "Fitness",
-    specified:
-      "Weightlifting and regular walks have instilled in me a sense of discipline and perseverance. I believe in maintaining a healthy work-life balance, and my dedication to fitness mirrors my commitment to achieving professional goals.",
+    name: "IBM Z-Xplore Concepts, ",
+    link: "https://www.credly.com/badges/b1f6674b-2cdd-4e48-9699-81601e446afd",
   },
   {
     id: "3",
-    generalStatement: "User Experience and Gaming",
-    specified:
-      "This has improved my problem-solving skills and quick thinking abilities. It has also shown me the importance of UI/UX design.",
-  },
-  {
-    id: "4",
-    generalStatement: "Relevant Coursework",
-    specified:
-      "Databases II, Artificial Intelligence I, Intro to Machine Learning, Analysis of Algorithms I, Computer Networks I, Computer Graphics I, Computer Organization, Unstructured Data",
+    name: "IBM Z-Xplore Advanced, ",
+    link: "https://www.credly.com/badges/4a6ecc36-78c7-4927-a16f-63785431f0bf/public_url",
   },
 ];
 
 export const proj = [
   {
-    id: "1",
-    projName: "Sheet Music Tutor",
+    id: "4",
+    projName: "Cook Vault",
     projDescrip:
-      "Have you ever wanted to learn how to sight read? Using a simple iOS application utilising Swift and SwiftUI, learn how to recognise notes and key signatures.",
-    link: "https://github.com/SunnyCSKong/Sheet-Music-Tutor",
+      "An app where you can create custom recipes, save that recipe to your own account or share it to your friends. If a recipe is shared to a friend, they can also save it to their own account.",
+    link: "https://github.com/SunnyCSKong/CookVault",
+    tech: "MongoDB, ExpressJS, Angular 18, NodeJS",
   },
   {
     id: "2",
     projName: "Stock Predictor with Predicted Profit/Loss",
     projDescrip:
-      "Predict stock price with AI (LSTM model), simulate potential profit based on predicted price when executing a collar, strangle or straddle strategy. This project employs Flask and React. See README.md for instructions and demo images.",
+      "Predict stock price with AI (LSTM), simulate potential profit based on predicted price when executing a collar, strangle or straddle strategy. See README.md for instructions and demo images.",
     link: "https://github.com/SunnyCSKong/Stock-Predictor-with-P-L",
+    tech: "Flask, Python, React, HTML, CSS, NodeJS",
   },
+  {
+    id: "1",
+    projName: "Sheet Music Tutor",
+    projDescrip:
+      "A simple iOS application that helps users learn how to read a music sheet.",
+    link: "https://github.com/SunnyCSKong/Sheet-Music-Tutor",
+    tech: "Swift",
+  },
+
   {
     id: "3",
     projName: "Chat-bot",
     projDescrip:
       "An auto response query system built for the faculty of Education at Western University. I created the front-end components.",
+    link: "https://docs.google.com/document/d/1UYhl3feMctBI3QHTMqvE0qFwAW1SmTDDNMumIOR5Z-4/edit?usp=sharing",
+    tech: "React, HTML, CSS, JavaScript, NodeJS",
   },
 ];
-
-export const skills = [
+const lang = [
   {
     id: "1",
-    logo: java,
+    text: "Java",
   },
   {
     id: "2",
-    logo: cpp,
+    text: "C/C++",
   },
   {
     id: "3",
-    logo: python,
+    text: "Python",
   },
   {
     id: "4",
-    logo: bash,
-  },
-];
-
-export const languages = [
-  {
-    id: "1",
-    text: "CSS",
-  },
-  {
-    id: "2",
-    text: "JavaScript",
-  },
-  {
-    id: "4",
-    text: "HTML",
+    text: "HTML/CSS/JavaScript",
   },
   {
     id: "5",
-    text: "PHP",
+    text: "TypeScript",
   },
   {
     id: "6",
-    text: "SQL",
+    text: "SQL/NoSQL",
   },
   {
     id: "7",
     text: "Swift",
   },
-  {
-    id: "8",
-    text: "TypeScript",
-  },
-  {
-    id: "9",
-    text: "VBA",
-  },
 ];
 
-export const tools = [
+const tools = [
   {
     id: "1",
     text: "Apache Superset",
@@ -125,17 +97,13 @@ export const tools = [
   },
   {
     id: "4",
-    text: "Git",
+    text: "Git/GitHub",
   },
   {
     id: "5",
     text: "Jira",
   },
 
-  {
-    id: "7",
-    text: "Maven",
-  },
   {
     id: "8",
     text: "MongoDB",
@@ -144,21 +112,9 @@ export const tools = [
     id: "9",
     text: "Node.js",
   },
-  {
-    id: "10",
-    text: "NPM",
-  },
-  {
-    id: "11",
-    text: "QT Creator",
-  },
-  {
-    id: "12",
-    text: "ZSH",
-  },
 ];
 
-export const frameworks = [
+const frameworks = [
   {
     id: "1",
     text: "Angular",
@@ -173,14 +129,43 @@ export const frameworks = [
   },
   {
     id: "4",
-    text: "React",
+    text: "React/React Native",
   },
+
   {
     id: "5",
-    text: "React Native",
+    text: "SwiftUI",
+  },
+];
+export const skills = [
+  {
+    id: "1",
+    title: "Languages",
+    descrip: lang,
   },
   {
-    id: "6",
-    text: "SwiftUI",
+    id: "2",
+    title: "Frameworks",
+    descrip: frameworks,
+  },
+  {
+    id: "3",
+    title: "Tools",
+    descrip: tools,
+  },
+];
+
+export const socials = [
+  {
+    id: "1",
+    icon: "src/assets/github.svg",
+    name: "GitHub",
+    link: "https://github.com/SunnyCSKong/",
+  },
+  {
+    id: "2",
+    icon: "src/assets/linkedin.svg",
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/sunny-kong-003b93199/",
   },
 ];

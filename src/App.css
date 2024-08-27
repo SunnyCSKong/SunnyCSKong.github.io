@@ -3,24 +3,17 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-}
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-  display: none;
+  scroll-behavior: smooth;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  scrollbar-color: transparent;
+#root {
+  width: 100vw;
+  height: 100vh;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+.preload {
+  background-image: url("./linkedinpicture-min.jpg");
+  width: 0;
+  height: 0;
+  overflow: hidden;
 }
